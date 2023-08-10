@@ -1,0 +1,23 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.hello {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 60px;
+}
+
+.work {
+  font-size: 40px;
+}
+
+.intro-image {
+  width: 45%;
+}
