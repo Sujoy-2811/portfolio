@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.progress-bar {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 65%, transparent 66%),
+    conic-gradient(hotpink 75%, pink 0);
+}
+
+.progress-bar::before {
+  content: "75%";
+}
+
+.skill-name {
+  margin: auto;
+}

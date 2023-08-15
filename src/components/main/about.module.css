@@ -1,0 +1,24 @@
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.work-img {
+  width: 45%;
+}
+
+.about {
+  font-weight: bold;
+  width: 45%;
+  padding: 15px;
+}
+
+.title {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+  display: block;
+}
