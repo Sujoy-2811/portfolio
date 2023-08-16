@@ -1,14 +1,18 @@
-ul {
+.container {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-li {
+.container li {
   padding-left: 20px;
 }
 
-li::after {
+.container li:hover {
+  color: aqua;
+}
+
+.container li::after {
   content: "dfhb";
   display: block;
   height: 4px;
@@ -18,7 +22,7 @@ li::after {
   transform-origin: left;
 }
 
-li:hover::after {
+.container li:hover::after {
   content: "";
   transform: scaleX(1);
 }
