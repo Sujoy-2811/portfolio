@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,14 +11,15 @@
   width: 45%;
 }
 
+.title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
 .about {
   font-weight: bold;
   width: 45%;
   padding: 15px;
-}
-
-.title {
-  font-size: 1.7em;
-  margin-bottom: 10px;
-  display: block;
+  font-size: 1.3em;
 }

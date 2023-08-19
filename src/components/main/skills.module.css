@@ -1,5 +1,4 @@
 .container {
-  width: 80%;
   margin: auto;
   background-color: rgb(193, 193, 28);
   display: flex;
@@ -10,10 +9,12 @@
   border-radius: 25px;
   background-color: rgb(5, 7, 41);
   justify-content: center;
+  margin-bottom: 35px;
   /* height: 150px; */
 }
 
 .progess-bar {
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
