@@ -1,6 +1,7 @@
 import About from "./about";
 import Skills from "./skills";
 import Projects from "./Projects";
+import Contact from "./contact";
 import styles from "./main.module.css";
 import work from "../../assets/work.png";
 export default function Main() {
@@ -19,6 +20,7 @@ export default function Main() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
