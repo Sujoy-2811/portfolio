@@ -6,13 +6,13 @@
 }
 .progress-bar {
   color: black;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  align-items: center; */
+  /* margin-bottom: 10px; */
+  /* width: 150px;
+  height: 150px; */
+  /* border-radius: 50%; */
   background: radial-gradient(closest-side, white 65%, transparent 66%),
     conic-gradient(hotpink 75%, pink 0);
 }

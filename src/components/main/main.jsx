@@ -1,6 +1,6 @@
 import About from "./about";
 import Skills from "./skills";
-import Projects from "./Projects";
+import Project from "./Projects";
 import Contact from "./contact";
 import work from "../../assets/work.png";
 export default function Main() {
@@ -18,7 +18,7 @@ export default function Main() {
       </div>
       <About />
       <Skills />
-      <Projects />
+      <Project />
       <Contact />
     </div>
   );

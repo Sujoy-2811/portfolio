@@ -1,9 +1,8 @@
-import styles from "./form.module.css";
 import InputField from "./inputField";
 
 export default function Form({ className }) {
   return (
-    <form className={`${styles.form}  ${className}`}>
+    <form className={`w-[40%] text-white  ${className}`}>
       <InputField type={"text"} id={"fName"} hint={"First Name"} />
       <InputField type={"text"} id={"lName"} hint={"Last Name"} />
       <InputField type={"tel"} id={"lName"} hint={"Phone No."} />
