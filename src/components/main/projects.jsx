@@ -15,7 +15,6 @@ export default function Projects() {
         <Card />
         <Card />
         <Card />
-        <Card />
       </div>
     </div>
   );
