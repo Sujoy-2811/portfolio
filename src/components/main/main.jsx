@@ -1,5 +1,5 @@
-import About from "./about";
-import Skills from "./skills";
+import About from "./About";
+import Skills from "./Skills";
 import Project from "./Projects";
 import Contact from "./Contact" ;
 import work from "../../assets/work.png";
