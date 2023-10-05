@@ -1,7 +1,7 @@
 import About from "./about";
 import Skills from "./skills";
 import Project from "./Projects";
-import Contact from "./contact";
+import Contact from "./Contact" ;
 import work from "../../assets/work.png";
 export default function Main() {
   return (
