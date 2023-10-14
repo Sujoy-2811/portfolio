@@ -1,9 +1,7 @@
-import Nav from './Nav'
+import Nav from "./Nav";
 
 function Header() {
-  return (
-    <Nav className={` shadow-md w-full`} />
-  )
+  return <Nav className="border-2 border-black" />;
 }
 
-export default Header
+export default Header;

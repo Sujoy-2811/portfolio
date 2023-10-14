@@ -1,19 +1,21 @@
-import Hamburger from "../utils/Hamburger";
+import { PiSunFill } from "react-icons/pi";
+import { BiMenuAltLeft } from "react-icons/bi";
 import List from "./List";
 import { useState } from "react";
 
 function Nav({ className }) {
   const [menuShow, setMenuShow] = useState(false);
   return (
-    <nav
-      className={`flex justify-between items-center bg-purple-700 p-2  ${className}`}
-    >
-      <div className=" uppercase order-2 text-xl font-semibold sm:order-1 sm:text-3xl">
+    <nav className={`flex justify-between items-center pr-1  ${className}`}>
+      <div className=" uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl">
         Sujoy
       </div>
-      <Hamburger className={`order-1  sm:hidden `} onClick={setMenuShow} />
+      <BiMenuAltLeft
+        className={`cursor-pointer text-black  text-4xl order-1  sm:hidden `}
+        onClick={setMenuShow}
+      />
       <List className=" hidden sm:flex sm:order-1" />
-      <div className=" w-[25px] h-[25px] bg-black order-3 sm:hidden"></div>
+      <PiSunFill className=" cursor-pointer text-2xl order-3 sm:hidden" />
     </nav>
   );
 }
