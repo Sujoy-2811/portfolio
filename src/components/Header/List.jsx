@@ -1,8 +1,9 @@
 import { PiSunFill } from "react-icons/pi";
+import { BiSolidMoon } from "react-icons/bi";
 import { useTheme } from "../../context/theme";
 
 function List({ className }) {
-  const { toggleTheme } = useTheme();
+  const { darkTheme, toggleTheme } = useTheme();
   return (
     <div className={` justify-end space-x-10  text-xl${className}`}>
       <ul className="flex space-x-7 order-1">
@@ -10,12 +11,21 @@ function List({ className }) {
         <li>Skills</li>
         <li>Projects</li>
       </ul>
-      <PiSunFill
-        className="cursor-pointer text-3xl order-3 "
-        onClick={() => {
-          toggleTheme((value) => !value);
-        }}
-      />
+      {darkTheme ? (
+        <BiSolidMoon
+          className="text-white cursor-pointer text-3xl order-3 "
+          onClick={() => {
+            toggleTheme((value) => !value);
+          }}
+        />
+      ) : (
+        <PiSunFill
+          className="cursor-pointer text-3xl order-3 "
+          onClick={() => {
+            toggleTheme((value) => !value);
+          }}
+        />
+      )}
     </div>
   );
 }

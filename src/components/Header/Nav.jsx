@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useTheme } from "../../context/theme";
 
 function Nav({ className }) {
-  const { toggleTheme } = useTheme();
+  const { darkTheme, toggleTheme } = useTheme();
   const [menuShow, setMenuShow] = useState(false);
   return (
     <nav className={`flex justify-between items-center pr-1  ${className}`}>
@@ -18,18 +18,21 @@ function Nav({ className }) {
         onClick={setMenuShow}
       />
       <List className=" hidden sm:flex sm:order-1" />
-      <PiSunFill
-        className=" cursor-pointer text-2xl order-3 sm:hidden dark:hidden "
-        onClick={() => {
-          toggleTheme((value) => !value);
-        }}
-      />
-      <BiSolidMoon
-        className="hidden text-white cursor-pointer text-2xl order-3 sm:hidden dark:block  "
-        onClick={() => {
-          toggleTheme((value) => !value);
-        }}
-      />
+      {darkTheme ? (
+        <BiSolidMoon
+          className=" text-white cursor-pointer text-2xl order-3 sm:hidden  "
+          onClick={() => {
+            toggleTheme((value) => !value);
+          }}
+        />
+      ) : (
+        <PiSunFill
+          className=" cursor-pointer text-2xl order-3 sm:hidden  "
+          onClick={() => {
+            toggleTheme((value) => !value);
+          }}
+        />
+      )}
     </nav>
   );
 }
