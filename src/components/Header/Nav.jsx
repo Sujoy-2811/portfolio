@@ -1,9 +1,12 @@
 import { PiSunFill } from "react-icons/pi";
 import { BiMenuAltLeft } from "react-icons/bi";
+import { BiSolidMoon } from "react-icons/bi";
 import List from "./List";
 import { useState } from "react";
+import { useTheme } from "../../context/theme";
 
 function Nav({ className }) {
+  const { toggleTheme } = useTheme();
   const [menuShow, setMenuShow] = useState(false);
   return (
     <nav className={`flex justify-between items-center pr-1  ${className}`}>
@@ -11,11 +14,22 @@ function Nav({ className }) {
         Sujoy
       </div>
       <BiMenuAltLeft
-        className={`cursor-pointer text-black  text-4xl order-1  sm:hidden `}
+        className={`cursor-pointer text-black  text-4xl order-1  sm:hidden dark:text-white `}
         onClick={setMenuShow}
       />
       <List className=" hidden sm:flex sm:order-1" />
-      <PiSunFill className=" cursor-pointer text-2xl order-3 sm:hidden" />
+      <PiSunFill
+        className=" cursor-pointer text-2xl order-3 sm:hidden dark:hidden "
+        onClick={() => {
+          toggleTheme((value) => !value);
+        }}
+      />
+      <BiSolidMoon
+        className="hidden text-white cursor-pointer text-2xl order-3 sm:hidden dark:block  "
+        onClick={() => {
+          toggleTheme((value) => !value);
+        }}
+      />
     </nav>
   );
 }
