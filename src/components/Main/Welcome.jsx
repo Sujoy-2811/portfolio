@@ -25,7 +25,7 @@ const About = () => {
         </p>
         {/* part 3 */}
         <div className="flex space-x-2 items-center">
-          <div className=" text-xl my-3  px-1  bg-black text-white rounded-sm cursor-pointer sm:text-3xl sm:p-2">
+          <div className="rounded- text-xl my-3  px-1  bg-black text-white rounded-sm cursor-pointer sm:text-3xl sm:p-2">
             Resume
           </div>
           <BiLogoGithub className=" text-3xl cursor-pointer sm:text-5xl" />

@@ -12,19 +12,23 @@ function List({ className }) {
         <li>Projects</li>
       </ul>
       {darkTheme ? (
-        <BiSolidMoon
-          className=" text-white cursor-pointer text-3xl order-3 "
+        <button
+          className=" text-white  text-3xl order-3 "
           onClick={() => {
             toggleTheme((value) => !value);
           }}
-        />
+        >
+          <BiSolidMoon />
+        </button>
       ) : (
-        <PiSunFill
-          className="cursor-pointer text-3xl order-3 "
+        <button
+          className="text-3xl order-3 "
           onClick={() => {
             toggleTheme((value) => !value);
           }}
-        />
+        >
+          <PiSunFill />
+        </button>
       )}
     </div>
   );
