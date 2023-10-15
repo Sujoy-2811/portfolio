@@ -1,6 +1,6 @@
 import { PiSunFill } from "react-icons/pi";
 import { BiSolidMoon } from "react-icons/bi";
-import { useTheme } from "../../context/theme";
+import { useTheme } from "../../context/Theme";
 
 function List({ className }) {
   const { darkTheme, toggleTheme } = useTheme();

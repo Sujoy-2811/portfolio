@@ -3,7 +3,7 @@ import { BiMenuAltLeft } from "react-icons/bi";
 import { BiSolidMoon } from "react-icons/bi";
 import List from "./List";
 import { useState } from "react";
-import { useTheme } from "../../context/theme";
+import { useTheme } from "../../context/Theme";
 
 function Nav({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
