@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
@@ -9,9 +9,11 @@ export default function App() {
 
   return (
     <ThemeProvider value={{ darkTheme, toggleTheme: toggleTheme }}>
-      <div className={darkTheme ? "dark" : ""}>
-        <Header />
-        <Main />
+      <div className={`${darkTheme ? "dark" : ""} `}>
+        <div className="bg-slate-200 dark:bg-slate-800 dark:text-white">
+          <Header />
+          <Main />
+        </div>
       </div>
     </ThemeProvider>
   );

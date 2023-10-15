@@ -18,7 +18,7 @@ const About = () => {
         <h1 className=" text-3xl font-bold mb-3 sm:text-5xl sm:mb-5">
           Full Stack Developer
         </h1>
-        <p className=" text-xl sm:text-2xl sm:mb-4">
+        <p className=" text-xl sm:text-2xl sm:mb-4 dark:text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolor
           quibusdam alias quae cupiditate vero sequi nobis! Dolorum voluptatum,
           eos ipsam, ipsum aut voluptate

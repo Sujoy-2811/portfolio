@@ -13,7 +13,7 @@ function List({ className }) {
       </ul>
       {darkTheme ? (
         <BiSolidMoon
-          className="text-white cursor-pointer text-3xl order-3 "
+          className=" text-white cursor-pointer text-3xl order-3 "
           onClick={() => {
             toggleTheme((value) => !value);
           }}

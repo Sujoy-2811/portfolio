@@ -13,7 +13,7 @@ function Nav({ className }) {
     <nav
       className={`flex justify-between items-center pr-1 sm:mt-2 ${className}`}
     >
-      <div className=" text-black uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl dark:text-white">
+      <div className="uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl ">
         Sujoy
       </div>
       <BiMenuAltLeft
