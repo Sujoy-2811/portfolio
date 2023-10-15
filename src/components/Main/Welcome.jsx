@@ -5,7 +5,7 @@ import work from "../../assets/work.png";
 const About = () => {
   return (
     // . container
-    <section className=" flex flex-col items-center mt-8 mb-16 mx-6 sm:mb-36 sm:flex-row  sm:justify-around">
+    <section className=" flex flex-col items-center mt-8 mb-16 mx-6 sm:mt-10 sm:mb-36 sm:flex-row  sm:justify-around">
       {/*  . part 1 */}
       <div className=" mb-4 sm:order-2 sm:w-[45%]">
         <img className=" md-8 w-screen" src={work} alt="my Image" />
