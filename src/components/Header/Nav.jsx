@@ -8,6 +8,7 @@ import { useTheme } from "../../context/Theme";
 function Nav({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
   const [menuShow, setMenuShow] = useState(false);
+  console.log("run");
   return (
     <nav
       className={`flex justify-between items-center pr-1 sm:mt-2 ${className}`}

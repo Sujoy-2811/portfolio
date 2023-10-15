@@ -8,7 +8,7 @@ export default function App() {
   const [darkTheme, toggleTheme] = useState(false);
 
   return (
-    <ThemeProvider value={{ darkTheme, toggleTheme }}>
+    <ThemeProvider value={{ darkTheme, toggleTheme: toggleTheme }}>
       <div className={darkTheme ? "dark" : ""}>
         <Header />
         <Main />
