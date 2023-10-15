@@ -9,7 +9,9 @@ function Nav({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
   const [menuShow, setMenuShow] = useState(false);
   return (
-    <nav className={`flex justify-between items-center pr-1  ${className}`}>
+    <nav
+      className={`flex justify-between items-center pr-1 sm:mt-2 ${className}`}
+    >
       <div className=" uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl">
         Sujoy
       </div>
