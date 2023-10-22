@@ -13,18 +13,25 @@ function Nav({ className }) {
     <nav
       className={`flex justify-between items-center pr-1 sm:pt-2 ${className}`}
     >
-      <div className="uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl ">
+      {/* .Name */}
+      <div className=" uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl ">
         Sujoy
       </div>
+
+      {/* . menu icon */}
       <button
-        className={`cursor-pointer text-black  text-4xl order-1  sm:hidden dark:text-white `}
+        className={`cursor-pointer text-skin-base  text-4xl order-1  sm:hidden dark:text-white `}
       >
         <BiMenuAltLeft onClick={setMenuShow} />
       </button>
+
+      {/* nav list */}
       <List className=" hidden sm:flex sm:order-1" />
+
+      {/* theme icon */}
       {darkTheme ? (
         <button
-          className=" text-white text-2xl order-3 sm:hidden  "
+          className=" text-skin-base text-2xl order-3 sm:hidden  "
           onClick={() => {
             toggleTheme((value) => !value);
           }}

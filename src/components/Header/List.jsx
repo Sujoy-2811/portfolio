@@ -4,16 +4,19 @@ import { useTheme } from "../../context/Theme";
 
 function List({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
+  const list = ["Home", "Skills", "Projects"];
   return (
-    <div className={` justify-end space-x-10  text-xl${className}`}>
+    <div className={` justify-end space-x-10  text-xl ${className}`}>
       <ul className="flex space-x-7 order-1">
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Projects</li>
+        {list.map((item) => (
+          <li className=" hover:text-skin-muted" key={item}>
+            {item}
+          </li>
+        ))}
       </ul>
       {darkTheme ? (
         <button
-          className=" text-white  text-3xl order-3 "
+          className=" text-skin-base text-3xl order-3 "
           onClick={() => {
             toggleTheme((value) => !value);
           }}

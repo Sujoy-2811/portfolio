@@ -9,8 +9,8 @@ export default function App() {
 
   return (
     <ThemeProvider value={{ darkTheme, toggleTheme: toggleTheme }}>
-      <div className={`${darkTheme ? "dark" : ""} `}>
-        <div className="dark:bg-slate-800 dark:text-white">
+      <div className={`${darkTheme ? "theme-dark " : ""} `}>
+        <div className="bg-skin-fill text-skin-base ">
           <Header />
           <Main />
         </div>

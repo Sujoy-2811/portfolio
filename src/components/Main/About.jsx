@@ -13,7 +13,7 @@ const About = () => {
         <h2 className="text-2xl font-semibold mb-1 sm:text-3xl sm:mb-3">
           About Me
         </h2>
-        <p className=" text-xl  sm:text-2xl sm:mb-4">
+        <p className="text-skin-muted text-xl  sm:text-2xl sm:mb-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus modi
           rem autem illo dicta quisquam distinctio iusto ad veritatis eum labore
           eos porro cumque voluptas repellat ex alias, itaque ipsum perferendis

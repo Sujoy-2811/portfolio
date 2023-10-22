@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-text-base: 34, 40, 49;
+    --color-text-muted: 45, 67, 86;
+    --color-text-inverted: 238, 238, 238;
+    --color-fill: 255, 255, 255
+    --color-button-accent: 23, 107, 135;
+    --color-button-accent-hover: 100, 204, 197;
+    /* --color-button-muted: 99, 102, 241; */
+  }
+  .theme-dark {
+    --color-text-base: 182, 255, 250;
+    --color-text-muted: 152, 228, 255;
+    --color-text-inverted: 128, 179, 255;
+    --color-fill: 44, 51, 51;
+    --color-button-accent: 47, 88, 205;
+    --color-button-accent-hover: 55, 149, 189;
+    /* --color-button-muted: 152, 228, 255 */
+  }
+}

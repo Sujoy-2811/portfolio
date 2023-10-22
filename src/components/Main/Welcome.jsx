@@ -7,7 +7,7 @@ const About = () => {
     // . container
     <section className=" flex flex-col items-center mt-8 mb-16 mx-6 sm:mt-10 sm:mb-36 sm:flex-row  sm:justify-around">
       {/*  . part 1 */}
-      <div className=" mb-4 sm:order-2 sm:w-[45%]">
+      <div className=" order-2 mb-4 sm:order-2 sm:w-[45%]">
         <img className=" md-8 w-screen" src={work} alt="my Image" />
       </div>
       {/* part 2 */}
@@ -18,14 +18,14 @@ const About = () => {
         <h1 className=" text-3xl font-bold mb-3 sm:text-5xl sm:mb-5">
           Full Stack Developer
         </h1>
-        <p className=" text-xl sm:text-2xl sm:mb-4 dark:text-white">
+        <p className="text-skin-muted  text-xl sm:text-2xl sm:mb-4 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolor
           quibusdam alias quae cupiditate vero sequi nobis! Dolorum voluptatum,
           eos ipsam, ipsum aut voluptate
         </p>
         {/* part 3 */}
         <div className="flex space-x-2 items-center">
-          <div className="rounded- text-xl my-3  px-1  bg-black text-white rounded-sm cursor-pointer sm:text-3xl sm:p-2">
+          <div className="rounded- text-xl my-3  px-1  bg-black text-skin-base rounded-sm cursor-pointer sm:text-3xl sm:p-2">
             Resume
           </div>
           <BiLogoGithub className=" text-3xl cursor-pointer sm:text-5xl" />
