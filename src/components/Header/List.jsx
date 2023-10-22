@@ -6,8 +6,8 @@ function List({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
   const list = ["Home", "Skills", "Projects"];
   return (
-    <div className={` justify-end space-x-10  text-xl ${className}`}>
-      <ul className="flex space-x-7 order-1">
+    <div className={` justify-end space-x-10  text-xl  ${className}`}>
+      <ul className="flex space-x-12 order-1">
         {list.map((item) => (
           <li className=" hover:text-skin-muted" key={item}>
             {item}
