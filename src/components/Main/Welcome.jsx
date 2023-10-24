@@ -24,13 +24,18 @@ const About = () => {
           eos ipsam, ipsum aut voluptate
         </p>
         {/* part 3 */}
-        <div className="flex space-x-2 items-center">
-          <div className="rounded- text-xl my-3  px-1  bg-black text-skin-base rounded-sm cursor-pointer sm:text-3xl sm:p-2">
+        <button className="flex space-x-2 items-center">
+          <div className="rounded-lg text-xl my-3  px-1  bg-skin-button-accent text-skin-inverted rounded-sm cursor-pointer sm:text-3xl sm:p-2 hover:bg-skin-button-accent-hover">
             Resume
           </div>
-          <BiLogoGithub className=" text-3xl cursor-pointer sm:text-5xl" />
-          <BiLogoLinkedinSquare className=" text-3xl cursor-pointer sm:text-5xl" />
-        </div>
+          <button className=" text-3xl cursor-pointer sm:text-5xl">
+            {" "}
+            <BiLogoGithub />
+          </button>
+          <button className=" text-3xl cursor-pointer sm:text-5xl">
+            <BiLogoLinkedinSquare />
+          </button>
+        </button>
       </div>
     </section>
   );
