@@ -10,7 +10,7 @@ export default function App() {
   return (
     <ThemeProvider value={{ darkTheme, toggleTheme: toggleTheme }}>
       <div className={`${darkTheme ? "theme-dark " : ""} `}>
-        <div className="bg-skin-fill text-skin-base ">
+        <div className="w-full h-auto bg-skin-fill text-skin-base font-base ">
           <Header />
           <Main />
         </div>

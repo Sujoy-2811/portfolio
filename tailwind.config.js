@@ -34,6 +34,12 @@ export default {
           hue: withOpacity("--color-fill"),
         },
       },
+      fontFamily: {
+        // skin: {
+        base: ["Roboto", "sans-serif"],
+        title: ["Noto Serif", "serif"],
+        // },
+      },
     },
   },
   plugins: [],
