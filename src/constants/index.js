@@ -14,4 +14,9 @@ export const navLinksData = [
     title: "Skills",
     link: "skills",
   },
+  {
+    id: 4,
+    title: "Projects",
+    link: "projects",
+  },
 ];
