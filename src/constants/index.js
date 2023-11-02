@@ -1,4 +1,4 @@
-export const navLinksData = [
+const navLinksData = [
   {
     id: 1,
     title: "Home",
@@ -20,3 +20,13 @@ export const navLinksData = [
     link: "projects",
   },
 ];
+
+const skills = [
+  { name: "Html", value: "40" },
+  { name: "Css", value: "40" },
+  { name: "Javascript", value: "40" },
+  { name: "React JS", value: "40" },
+  { name: "Tailwind Css", value: "40" },
+];
+
+export { navLinksData, skills };

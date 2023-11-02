@@ -7,7 +7,6 @@ import { navLinksData } from "../../constants/index";
 
 function List({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
-  const list = ["Home", "Skills", "Projects"];
   return (
     <div className={` justify-end space-x-10  text-xl  ${className}`}>
       <ul className="flex space-x-12 order-1">
@@ -20,7 +19,7 @@ function List({ className }) {
             smooth={true}
             offset={50}
             duration={500}
-            onSetActive={true}
+            // onSetActive={true}
             key={item.id}
           >
             {item.title}
