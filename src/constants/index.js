@@ -19,6 +19,11 @@ const navLinksData = [
     title: "Projects",
     link: "projects",
   },
+  {
+    id: 5,
+    title: "Contact",
+    link: "contact",
+  },
 ];
 
 const skills = [
@@ -29,4 +34,15 @@ const skills = [
   { name: "Tailwind Css", value: "40" },
 ];
 
-export { navLinksData, skills };
+const projects = [
+  { title: "title1" },
+  { title: "title2" },
+  { title: "title3" },
+  { title: "title4" },
+  // { title: "title5" },
+  // { title: "title6" },
+  // { title: "title7" },
+  // { title: "titlte 8" },
+];
+
+export { navLinksData, skills, projects };

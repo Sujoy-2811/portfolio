@@ -11,7 +11,7 @@ function Nav({ className }) {
   console.log("run");
   return (
     <nav
-      className={`flex justify-between items-center sm:mx-4 pr-1 sm:pt-2 ${className}`}
+      className={` flex justify-between items-center py-1 pr-1  sm:px-4 sm:py-3 ${className}`}
     >
       {/* .Name */}
       <div className=" uppercase order-2 text-xl font-semibold sm:ml-2 sm:order-1 sm:text-3xl ">

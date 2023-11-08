@@ -7,7 +7,7 @@ const About = () => {
     // . container
     <section
       id="home"
-      className=" flex flex-col items-center mt-8 mb-16 mx-6 sm:mt-10 sm:mb-36 sm:flex-row  sm:justify-around"
+      className=" flex flex-col items-center mt-4 mb-16 mx-6 sm:mt-20 sm:mb-36 sm:flex-row  sm:justify-around"
     >
       {/*  . part 1 */}
       <div className=" order-2 mb-4 sm:order-2 sm:w-[45%]">
@@ -28,7 +28,7 @@ const About = () => {
         </p>
         {/* part 3 */}
         <div className="flex space-x-2 items-center ">
-          <div className="rounded-xl text-xl my-3  px-1  bg-skin-button-accent text-skin-inverted rounded-sm cursor-pointer sm:text-3xl sm:p-2 hover:bg-skin-button-accent-hover">
+          <div className="rounded-xl text-xl my-3  px-1  bg-skin-button-accent text-skin-inverted  cursor-pointer sm:text-3xl sm:p-2 hover:bg-skin-button-accent-hover">
             Resume
           </div>
           <button className=" text-3xl cursor-pointer sm:text-5xl hover:text-skin-muted">

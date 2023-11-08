@@ -17,7 +17,7 @@ function List({ className }) {
             to={item.link}
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             // onSetActive={true}
             key={item.id}
