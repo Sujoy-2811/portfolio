@@ -24,9 +24,8 @@ function Nav({ className }) {
         className={`cursor-pointer text-skin-base  text-4xl order-1  sm:hidden dark:text-white `}
       >
         <BiMenuAltLeft onClick={() => setMenuShow((prevState) => !prevState)} />
-        {menuShow && <DropDownMenu />}
       </button>
-
+      {menuShow && <DropDownMenu />}
       {/* nav list */}
       <List className=" hidden sm:flex sm:order-1" />
 
