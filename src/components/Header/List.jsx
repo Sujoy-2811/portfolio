@@ -11,19 +11,20 @@ function List({ className }) {
     <div className={` justify-end space-x-10  text-xl  ${className}`}>
       <ul className="flex space-x-12 order-1">
         {navLinksData.map((item) => (
-          <Link
-            className=" hover:text-skin-muted"
-            activeClass="active"
-            to={item.link}
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-            // onSetActive={true}
-            key={item.id}
-          >
-            {item.title}
-          </Link>
+          <li key={item.id}>
+            <Link
+              className=" hover:text-skin-muted"
+              activeClass="active"
+              to={item.link}
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              // onSetActive={true}
+            >
+              {item.title}
+            </Link>
+          </li>
         ))}
       </ul>
       {darkTheme ? (

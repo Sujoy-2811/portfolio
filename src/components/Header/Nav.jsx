@@ -4,11 +4,12 @@ import { BiSolidMoon } from "react-icons/bi";
 import List from "./List";
 import { useState } from "react";
 import { useTheme } from "../../context/Theme";
+import DropDownMenu from "../utils/DropDownMenu";
 
 function Nav({ className }) {
   const { darkTheme, toggleTheme } = useTheme();
   const [menuShow, setMenuShow] = useState(false);
-  console.log("run");
+  console.log(menuShow);
   return (
     <nav
       className={` flex justify-between items-center py-1 pr-1  sm:px-4 sm:py-3 ${className}`}
@@ -22,7 +23,8 @@ function Nav({ className }) {
       <button
         className={`cursor-pointer text-skin-base  text-4xl order-1  sm:hidden dark:text-white `}
       >
-        <BiMenuAltLeft onClick={setMenuShow} />
+        <BiMenuAltLeft onClick={() => setMenuShow((prevState) => !prevState)} />
+        {menuShow && <DropDownMenu />}
       </button>
 
       {/* nav list */}
