@@ -14,7 +14,7 @@ const Contact = () => {
         <img className=" md-8 w-screen" src={work} alt="my Image" />
       </div>
       {/* part 2 */}
-      <div className=" flex flex-col justify-center items-start my-3  sm:order-2 sm:w-[40%] ">
+      <div className="w-[80%] flex flex-col justify-center items-start my-3  sm:order-2 sm:w-[40%] ">
         <h2 className="text-2xl font-semibold mb-1 sm:text-3xl sm:mb-3">
           Get In Touch
         </h2>

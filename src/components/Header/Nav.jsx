@@ -25,7 +25,7 @@ function Nav({ className }) {
       >
         <BiMenuAltLeft onClick={() => setMenuShow((prevState) => !prevState)} />
       </button>
-      {menuShow && <DropDownMenu />}
+      {menuShow && <DropDownMenu  closeMenu ={setMenuShow}/>}
       {/* nav list */}
       <List className=" hidden sm:flex sm:order-1" />
 
