@@ -35,10 +35,23 @@ const skills = [
 ];
 
 const projects = [
-  { title: "title1" },
-  { title: "title2" },
-  { title: "title3" },
-  { title: "title4" },
+  {
+    title: "React Notes",
+    image: "react-notes.jpg",
+    demoLink: "https://react-notes-pearl.vercel.app/",
+    githubLink: "https://github.com/Sujoy-2811/react-notes",
+  },
+  {
+    title: "React Movies",
+    image: "react-movies.jpg",
+    demoLink: "https://react-movies-pi-root.vercel.app/",
+    githubLink: "https://github.com/Sujoy-2811/react-movies",
+  },
+  {
+    title: "Blog In",
+    image: "blog-in.jpg",
+    githubLink: "https://github.com/Sujoy-2811/react-blog",
+  },
   // { title: "title5" },
   // { title: "title6" },
   // { title: "title7" },

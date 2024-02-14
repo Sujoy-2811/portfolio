@@ -11,10 +11,10 @@ const About = () => {
     >
       {/*  . part 1 */}
       <div className=" order-2 mb-4 sm:order-2 sm:w-[45%]">
-        <img className=" md-8 w-screen" src={work} alt="my Image" />
+        <img className=" md-8 w-screen" src="welcome.svg" alt="my Image" />
       </div>
       {/* part 2 */}
-      <div className=" flex flex-col justify-center items-start my-3  sm:order-1 sm:w-[40%] ">
+      <div className=" flex flex-col justify-center items-start my-3  sm:order-1 sm:w-[45%] ">
         <h2 className="text-2xl font-semibold mb-1 sm:text-3xl sm:mb-3">
           Hi , i am Sujoy
         </h2>
@@ -22,21 +22,36 @@ const About = () => {
           Full Stack Developer
         </h1>
         <p className="text-skin-muted  text-xl sm:text-2xl sm:mb-4 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolor
-          quibusdam alias quae cupiditate vero sequi nobis! Dolorum voluptatum,
-          eos ipsam, ipsum aut voluptate
+          I love bringing ideas to life with sleek designs using code.
         </p>
         {/* part 3 */}
         <div className="flex space-x-2 items-center ">
           <div className="rounded-xl text-xl my-3  px-1  bg-skin-button-accent text-skin-inverted  cursor-pointer sm:text-3xl sm:p-2 hover:bg-skin-button-accent-hover">
-            Resume
+            <a
+              href="https://docs.google.com/document/d/1yxo7MUza-F8uksRKGq8rp2UrZ14fyXBUsBpl2Yj40Hs/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
           <button className=" text-3xl cursor-pointer sm:text-5xl hover:text-skin-muted">
-            {" "}
-            <BiLogoGithub />
+            <a
+              href="https://github.com/Sujoy-2811"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BiLogoGithub />
+            </a>
           </button>
           <button className=" text-3xl cursor-pointer sm:text-5xl hover:text-skin-muted">
-            <BiLogoLinkedinSquare />
+            <a
+              href="https://www.linkedin.com/in/sujoy2811pro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BiLogoLinkedinSquare />
+            </a>
           </button>
         </div>
       </div>

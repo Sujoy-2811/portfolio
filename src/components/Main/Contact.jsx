@@ -11,12 +11,12 @@ const Contact = () => {
     >
       {/*  . part 1 */}
       <div className=" mb-4 sm:order-2 sm:w-[45%]">
-        <img className=" md-8 w-screen" src={work} alt="my Image" />
+        <img className=" md-8 w-screen" src="contact.svg" alt="my Image" />
       </div>
       {/* part 2 */}
       <div className="w-[80%] flex flex-col justify-center items-start my-3  sm:order-2 sm:w-[40%] ">
-        <h2 className="text-2xl font-semibold mb-1 sm:text-3xl sm:mb-3">
-          Get In Touch
+        <h2 className="text-2xl font-semibold mb-6 sm:text-3xl sm:mb-3">
+          Get In Touch (Work in Progress)
         </h2>
         <Form />
       </div>
