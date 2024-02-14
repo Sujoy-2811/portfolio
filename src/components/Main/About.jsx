@@ -25,7 +25,7 @@ const About = () => {
             Problem solver and curiosity-driven, I have to know the why of
             everything. I'm happiest when I'm learning, building, and
             contributing. When I'm away from my screen, you'll find me reading
-            or gaming. Let's build cool things!
+            or gaming.
           </span>
           <span>Let's build cool things!</span>
         </p>
