@@ -46,7 +46,7 @@ const About = () => {
           </button>
           <button className=" text-3xl cursor-pointer sm:text-5xl hover:text-skin-muted">
             <a
-              href="https://www.linkedin.com/in/sujoy2811pro"
+              href="https://www.linkedin.com/in/sujoy2811"
               target="_blank"
               rel="noopener noreferrer"
             >
