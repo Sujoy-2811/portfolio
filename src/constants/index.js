@@ -37,7 +37,7 @@ const skills = [
 const projects = [
   {
     title: "React Notes",
-    image: "react-notes.jpg",
+    image: "react-notes-v2.jpg",
     demoLink: "https://react-notes-pearl.vercel.app/",
     githubLink: "https://github.com/Sujoy-2811/react-notes",
   },
