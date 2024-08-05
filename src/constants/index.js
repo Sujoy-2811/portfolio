@@ -36,26 +36,23 @@ const skills = [
 
 const projects = [
   {
+    title: "Blog In",
+    image: "next-blog-in.jpeg",
+    githubLink: "https://github.com/Sujoy-2811/Next-Blog-In",
+    demoLink: "https://next-blog-in.vercel.app/",
+  },
+  {
     title: "React Notes",
-    image: "react-notes-v2.jpg",
+    image: "react-notes.jpeg",
     demoLink: "https://react-notes-pearl.vercel.app/",
     githubLink: "https://github.com/Sujoy-2811/react-notes",
   },
   {
-    title: "React Movies",
-    image: "react-movies.jpg",
-    demoLink: "https://react-movies-pi-root.vercel.app/",
-    githubLink: "https://github.com/Sujoy-2811/react-movies",
+    title: "Privacy Shield Vpn",
+    image: "privacy-shield-vpn.jpeg",
+    demoLink: "https://privacy-shield-vpn.vercel.app/",
+    githubLink: "https://github.com/Sujoy-2811/privacy-shield-vpn",
   },
-  {
-    title: "Blog In",
-    image: "blog-in.jpg",
-    githubLink: "https://github.com/Sujoy-2811/react-blog",
-  },
-  // { title: "title5" },
-  // { title: "title6" },
-  // { title: "title7" },
-  // { title: "titlte 8" },
 ];
 
 export { navLinksData, skills, projects };

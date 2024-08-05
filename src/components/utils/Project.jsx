@@ -10,7 +10,7 @@ const Project = ({ props: { title, image, demoLink, githubLink } }) => {
             src={image}
             // src={image ? `../../assets/${image}` : work}
             alt={title}
-            className=" object-cover rounded-t-md"
+            className=" object-fill rounded-t-md aspect-[2/1]"
           />
           <p className="text-xl">{title}</p>
           <div className=" flex justify-between mx-5 font-sans font-semibold   ">
