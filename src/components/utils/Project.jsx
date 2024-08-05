@@ -2,7 +2,7 @@ const Project = ({ props: { title, image, demoLink, githubLink } }) => {
   console.log(title, image, demoLink, githubLink);
   console.log(`../../assets/${image}`);
   return (
-    <li className="border border-solid border-gray-300  w-[20rem] h-[17rem]  pb-2 rounded-md ">
+    <li className="border border-solid border-gray-300  w-[20rem]   pb-6 rounded-md ">
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
         <div className="w-full  m-auto  flex flex-col  space-y-2  sm:w-auto text-center    ">
           {/* ! img */}

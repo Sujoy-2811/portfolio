@@ -8,7 +8,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiAppwrite } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
-import work from "../../assets/work.png";
+import { IoLogoNodejs } from "react-icons/io5";
+import { SiExpress } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -27,6 +29,9 @@ const Skills = () => {
           <IoLogoJavascript className=" hover:text-[#f0db4f]" />
           <FaReact className=" hover:text-[#61DBFB]" />
           <BiLogoTailwindCss className=" hover:text-[#00b6d7]" />
+          <TbBrandNextjs className=" hover:text-[#fff]" />
+          <IoLogoNodejs className=" hover:text-[#6cc24a]" />
+          <SiExpress className=" hover:text-[#fff]" />
           <SiAppwrite className=" hover:text-[#fd366e]" />
           <SiFirebase className=" hover:text-[#f89313]" />
         </div>
